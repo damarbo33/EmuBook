@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="miLector" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="win">
+				<Option output="miLector" prefix_auto="1" extension_auto="1" />
+				<Option object_output="win" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-Dwin" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDLgfx -lSDL_mixer -lSDL_ttf" />
+				</Linker>
+			</Target>
+			<Target title="gp2x">
+				<Option output="miLector.gpe" prefix_auto="1" extension_auto="0" />
+				<Option object_output="gp2x" />
+				<Option type="0" />
+				<Option compiler="armelfgcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-DGP2X" />
+					<Add directory="..\..\devkitGP2X\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\devkitGP2X\lib" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static -lSDL_gfx -lSDL_ttf -lfreetype -lSDL_image -ljpeg -lpng12 -lz -lSDL_mixer -lvorbisidec -lmikmod -lmad -lSDL -lgcc -lm -lc -lexpat -lpthread -msoft-float" />
+					<Add directory="..\..\devkitGP2X\lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-D_REENTRANT" />
+			<Add directory="..\..\..\..\..\devkitGP2X\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL -lSDL_image -lSDL_mixer -lSDL_ttf" />
+		</Linker>
+		<Unit filename="abrir_fichero.cpp" />
+		<Unit filename="abrir_fichero.h" />
+		<Unit filename="image.cpp" />
+		<Unit filename="image.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="mapeos.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menuData.cpp" />
+		<Unit filename="pantalla.cpp" />
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h" />
+		<Unit filename="tclist.cpp" />
+		<Unit filename="tclist.h" />
+		<Unit filename="tconfig.cpp" />
+		<Unit filename="tconfig.h" />
+		<Unit filename="tcstring.cpp" />
+		<Unit filename="tcstring.h" />
+		<Unit filename="tdiccionario.cpp" />
+		<Unit filename="tdiccionario.h" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="tmenuprincipal.cpp" />
+		<Unit filename="traza.cpp" />
+		<Unit filename="traza.h" />
+		<Unit filename="ttaxonomia.cpp" />
+		<Unit filename="ttaxonomia.h" />
+		<Unit filename="ttecladoPantalla.cpp" />
+		<Unit filename="ttecladoPantalla.h" />
+		<Unit filename="ttext.cpp" />
+		<Unit filename="ttext.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1510 @@
+# depslib dependency file v1.0
+1215113831 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1182007734 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1214761686 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+
+1215537498 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"image.h"
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_gfxPrimitives.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"tconfig.h"
+
+1198501100 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1214160340 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1215537525 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1215549367 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+
+1215549510 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\menu.cpp
+	"menu.h"
+
+1215555210 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\pantalla.cpp
+	"pantalla.h"
+
+1215553234 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\tconfig.cpp
+	"tconfig.h"
+
+1215553234 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1215553076 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\traza.cpp
+	"traza.h"
+
+1215551124 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\ttext.cpp
+	"ttext.h"
+
+1215539040 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1198500810 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\image.h
+	<SDL/SDL.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL_image.h>
+	<time.h>
+
+1209229896 source:c:\gp2x\proyectos\projectsgp2x\proyectos\milector\image.cpp
+	"image.h"
+	"resize.h"
+
+1196479396 c:\gp2x\proyectos\projectsgp2x\proyectos\milector\resize.h
+	<SDL/SDL.h>
+
+1157371258 c:\devkitgp2x\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_getenv.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_timer.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_joystick.h"
+	"SDL_events.h"
+	"SDL_video.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1198773379 c:\devkitgp2x\include\sdl\sdl_main.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371262 c:\devkitgp2x\include\sdl\sdl_types.h
+
+1157371262 c:\devkitgp2x\include\sdl\begin_code.h
+
+1157371262 c:\devkitgp2x\include\sdl\close_code.h
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_getenv.h
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_error.h
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_rwops.h
+	<stdio.h>
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371262 c:\devkitgp2x\include\sdl\sdl_timer.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371258 c:\devkitgp2x\include\sdl\sdl_audio.h
+	<stdio.h>
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_byteorder.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371258 c:\devkitgp2x\include\sdl\sdl_byteorder.h
+
+1157371258 c:\devkitgp2x\include\sdl\sdl_cdrom.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_joystick.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_events.h
+	"SDL_types.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371258 c:\devkitgp2x\include\sdl\sdl_active.h
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_keyboard.h
+	"SDL_types.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_keysym.h
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_mouse.h
+	"SDL_types.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371262 c:\devkitgp2x\include\sdl\sdl_video.h
+	<stdio.h>
+	"SDL_types.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_mutex.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 c:\devkitgp2x\include\sdl\sdl_quit.h
+
+1157371262 c:\devkitgp2x\include\sdl\sdl_version.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1149044396 c:\devkitgp2x\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1149044868 c:\devkitgp2x\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1149073946 c:\devkitgp2x\include\sdl\sdl_gfxprimitives.h
+	<math.h>
+	"SDL.h"
+
+1234706462 source:c:\gp2xsdk\proyectos\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1232831598 c:\gp2xsdk\proyectos\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1239729905 source:c:\gp2xsdk\proyectos\milector\image.cpp
+	"image.h"
+
+1236560233 c:\gp2xsdk\proyectos\milector\image.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<SDL/SDL_image.h>
+	"menuData.h"
+	"timer.h"
+	"mapeos.h"
+	"pantalla.h"
+
+1196479396 c:\gp2xsdk\proyectos\milector\resize.h
+	<SDL/SDL.h>
+
+1237723133 source:c:\gp2xsdk\proyectos\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"sound.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1230643358 c:\gp2xsdk\proyectos\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1233373030 c:\gp2xsdk\proyectos\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+	"ttaxonomia.h"
+	"image.h"
+
+1237722949 c:\gp2xsdk\proyectos\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"mapeos.h"
+	"tconfig.h"
+
+1231023652 c:\gp2xsdk\proyectos\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1235225491 c:\gp2xsdk\proyectos\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	"ttecladoPantalla.h"
+	"tdiccionario.h"
+	"sound.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1231018960 c:\gp2xsdk\proyectos\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+	"image.h"
+
+1236124318 source:c:\gp2xsdk\proyectos\milector\menu.cpp
+	"menu.h"
+
+1237720268 source:c:\gp2xsdk\proyectos\milector\pantalla.cpp
+	"pantalla.h"
+
+1235220100 source:c:\gp2xsdk\proyectos\milector\tconfig.cpp
+	"tconfig.h"
+
+1239729815 source:c:\gp2xsdk\proyectos\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1239729823 source:c:\gp2xsdk\proyectos\milector\traza.cpp
+	"traza.h"
+
+1239729827 source:c:\gp2xsdk\proyectos\milector\ttext.cpp
+	"ttext.h"
+
+1215535442 source:h:\320gb\proyectos\gp2x\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1214156740 h:\320gb\proyectos\gp2x\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1209226296 source:h:\320gb\proyectos\gp2x\milector\image.cpp
+	"image.h"
+	"resize.h"
+
+1198497210 h:\320gb\proyectos\gp2x\milector\image.h
+	<SDL/SDL.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL_image.h>
+	<time.h>
+
+1196475796 h:\320gb\proyectos\gp2x\milector\resize.h
+	<SDL/SDL.h>
+
+1224423048 source:h:\320gb\proyectos\gp2x\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1182004134 h:\320gb\proyectos\gp2x\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1224950138 h:\320gb\proyectos\gp2x\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+
+1224428422 h:\320gb\proyectos\gp2x\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"image.h"
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"tconfig.h"
+
+1198497500 h:\320gb\proyectos\gp2x\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1224948468 h:\320gb\proyectos\gp2x\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1215545768 h:\320gb\proyectos\gp2x\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+
+1215545912 source:h:\320gb\proyectos\gp2x\milector\menu.cpp
+	"menu.h"
+
+1224944888 source:h:\320gb\proyectos\gp2x\milector\pantalla.cpp
+	"pantalla.h"
+
+1215549636 source:h:\320gb\proyectos\gp2x\milector\tconfig.cpp
+	"tconfig.h"
+
+1225040952 source:h:\320gb\proyectos\gp2x\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1215549478 source:h:\320gb\proyectos\gp2x\milector\traza.cpp
+	"traza.h"
+
+1224950454 source:h:\320gb\proyectos\gp2x\milector\ttext.cpp
+	"ttext.h"
+
+1225997292 source:c:\codeblocks\projects\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1214156740 c:\codeblocks\projects\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1226004186 source:c:\codeblocks\projects\milector\image.cpp
+	"image.h"
+
+1198497210 c:\codeblocks\projects\milector\image.h
+	<SDL/SDL.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL_image.h>
+	<time.h>
+
+1157371258 ..\..\..\..\..\devkitgp2x\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_getenv.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_timer.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_joystick.h"
+	"SDL_events.h"
+	"SDL_video.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_main.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371262 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_types.h
+
+1157371262 ..\..\..\..\..\devkitgp2x\include\sdl\begin_code.h
+
+1157371262 ..\..\..\..\..\devkitgp2x\include\sdl\close_code.h
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_getenv.h
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_error.h
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_rwops.h
+	<stdio.h>
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371262 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_timer.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371258 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_audio.h
+	<stdio.h>
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_byteorder.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371258 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_byteorder.h
+
+1157371258 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_cdrom.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_joystick.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_events.h
+	"SDL_types.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371258 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_active.h
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_keyboard.h
+	"SDL_types.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_keysym.h
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_mouse.h
+	"SDL_types.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371262 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_video.h
+	<stdio.h>
+	"SDL_types.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_mutex.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1157371260 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_quit.h
+
+1157371262 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_version.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1149044396 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1196475796 c:\codeblocks\projects\milector\resize.h
+	<SDL/SDL.h>
+
+1225915196 source:c:\codeblocks\projects\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1182004134 c:\codeblocks\projects\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1225996328 c:\codeblocks\projects\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+
+1226151532 c:\codeblocks\projects\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"image.h"
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"tconfig.h"
+
+1149044868 ..\..\..\..\..\devkitgp2x\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1198497500 c:\codeblocks\projects\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1226001128 c:\codeblocks\projects\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	"ttecladoPantalla.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1215545768 c:\codeblocks\projects\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+
+1226153458 source:c:\codeblocks\projects\milector\menu.cpp
+	"menu.h"
+
+1226151968 source:c:\codeblocks\projects\milector\pantalla.cpp
+	"pantalla.h"
+
+1215549636 source:c:\codeblocks\projects\milector\tconfig.cpp
+	"tconfig.h"
+
+1226153588 source:c:\codeblocks\projects\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1215549478 source:c:\codeblocks\projects\milector\traza.cpp
+	"traza.h"
+
+1226004606 source:c:\codeblocks\projects\milector\ttext.cpp
+	"ttext.h"
+
+1226002388 c:\codeblocks\projects\milector\ttecladopantalla.h
+	"pantalla.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+
+1226153428 source:c:\codeblocks\projects\milector\ttecladopantalla.cpp
+	"ttecladoPantalla.h"
+
+1235172912 c:\gp2xsdk\proyectos\milector\ttecladopantalla.h
+	"pantalla.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"image.h"
+
+1235224986 source:c:\gp2xsdk\proyectos\milector\ttecladopantalla.cpp
+	"ttecladoPantalla.h"
+
+1230724346 c:\gp2xsdk\proyectos\milector\menudata.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1218124096 c:\gp2xsdk\proyectos\milector\timer.h
+	"SDL/SDL.h"
+
+1230424914 c:\gp2xsdk\proyectos\milector\mapeos.h
+
+1218124090 source:c:\gp2xsdk\proyectos\milector\timer.cpp
+	"timer.h"
+
+1231020776 source:c:\gp2xsdk\proyectos\milector\menudata.cpp
+	"menuData.h"
+
+1232804248 c:\gp2xsdk\proyectos\milector\ttaxonomia.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1235220232 source:c:\gp2xsdk\proyectos\milector\ttaxonomia.cpp
+	"ttaxonomia.h"
+
+1235224133 source:c:\gp2xsdk\proyectos\milector\tdiccionario.cpp
+	"tdiccionario.h"
+
+1234632939 c:\gp2xsdk\proyectos\milector\tdiccionario.h
+	"tclist.h"
+	"abrir_fichero.h"
+	"tcstring.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1235220228 source:c:\gp2xsdk\proyectos\milector\tclist.cpp
+	"tclist.h"
+
+1234632870 c:\gp2xsdk\proyectos\milector\tclist.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1239208716 source:c:\gp2xsdk\proyectos\milector\tcstring.cpp
+	"tcstring.h"
+
+1237720796 c:\gp2xsdk\proyectos\milector\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+
+1235220862 c:\gp2xsdk\proyectos\milector\sound.h
+	"SDL\SDL_mixer.h"
+
+1235220422 source:c:\gp2xsdk\proyectos\milector\sound.cpp
+	"sound.h"
+
+1246639182 source:c:\archivos de programa\codeblocks\proyectos\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1232831600 c:\archivos de programa\codeblocks\proyectos\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1239729906 source:c:\archivos de programa\codeblocks\proyectos\milector\image.cpp
+	"image.h"
+
+1236560234 c:\archivos de programa\codeblocks\proyectos\milector\image.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<SDL/SDL_image.h>
+	"menuData.h"
+	"timer.h"
+	"mapeos.h"
+	"pantalla.h"
+
+1230724348 c:\archivos de programa\codeblocks\proyectos\milector\menudata.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1218124096 c:\archivos de programa\codeblocks\proyectos\milector\timer.h
+	"SDL/SDL.h"
+
+1230424914 c:\archivos de programa\codeblocks\proyectos\milector\mapeos.h
+
+1237722950 c:\archivos de programa\codeblocks\proyectos\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"mapeos.h"
+	"tconfig.h"
+
+1231023654 c:\archivos de programa\codeblocks\proyectos\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1230643358 c:\archivos de programa\codeblocks\proyectos\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1247074951 source:c:\archivos de programa\codeblocks\proyectos\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"sound.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1235220864 c:\archivos de programa\codeblocks\proyectos\milector\sound.h
+	"SDL\SDL_mixer.h"
+
+1233373032 c:\archivos de programa\codeblocks\proyectos\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+	"ttaxonomia.h"
+	"image.h"
+
+1232804250 c:\archivos de programa\codeblocks\proyectos\milector\ttaxonomia.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1235225492 c:\archivos de programa\codeblocks\proyectos\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	"ttecladoPantalla.h"
+	"tdiccionario.h"
+	"sound.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1246641674 c:\archivos de programa\codeblocks\proyectos\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+	"image.h"
+
+1235172914 c:\archivos de programa\codeblocks\proyectos\milector\ttecladopantalla.h
+	"pantalla.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"image.h"
+
+1234632940 c:\archivos de programa\codeblocks\proyectos\milector\tdiccionario.h
+	"tclist.h"
+	"abrir_fichero.h"
+	"tcstring.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1234632872 c:\archivos de programa\codeblocks\proyectos\milector\tclist.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1237720798 c:\archivos de programa\codeblocks\proyectos\milector\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+
+1236124320 source:c:\archivos de programa\codeblocks\proyectos\milector\menu.cpp
+	"menu.h"
+
+1231020778 source:c:\archivos de programa\codeblocks\proyectos\milector\menudata.cpp
+	"menuData.h"
+
+1246640781 source:c:\archivos de programa\codeblocks\proyectos\milector\pantalla.cpp
+	"pantalla.h"
+
+1235220424 source:c:\archivos de programa\codeblocks\proyectos\milector\sound.cpp
+	"sound.h"
+
+1235220230 source:c:\archivos de programa\codeblocks\proyectos\milector\tclist.cpp
+	"tclist.h"
+
+1246640002 source:c:\archivos de programa\codeblocks\proyectos\milector\tconfig.cpp
+	"tconfig.h"
+
+1239208718 source:c:\archivos de programa\codeblocks\proyectos\milector\tcstring.cpp
+	"tcstring.h"
+
+1235224134 source:c:\archivos de programa\codeblocks\proyectos\milector\tdiccionario.cpp
+	"tdiccionario.h"
+
+1218124090 source:c:\archivos de programa\codeblocks\proyectos\milector\timer.cpp
+	"timer.h"
+
+1247074662 source:c:\archivos de programa\codeblocks\proyectos\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1246640839 source:c:\archivos de programa\codeblocks\proyectos\milector\traza.cpp
+	"traza.h"
+
+1235220234 source:c:\archivos de programa\codeblocks\proyectos\milector\ttaxonomia.cpp
+	"ttaxonomia.h"
+
+1235224988 source:c:\archivos de programa\codeblocks\proyectos\milector\ttecladopantalla.cpp
+	"ttecladoPantalla.h"
+
+1246637371 source:c:\archivos de programa\codeblocks\proyectos\milector\ttext.cpp
+	"ttext.h"
+
+1246639184 source:j:\320gb\proyectos\gp2x\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1232831600 j:\320gb\proyectos\gp2x\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1239729906 source:j:\320gb\proyectos\gp2x\milector\image.cpp
+	"image.h"
+
+1236560234 j:\320gb\proyectos\gp2x\milector\image.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<SDL/SDL_image.h>
+	"menuData.h"
+	"timer.h"
+	"mapeos.h"
+	"pantalla.h"
+
+1230724348 j:\320gb\proyectos\gp2x\milector\menudata.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1218124096 j:\320gb\proyectos\gp2x\milector\timer.h
+	"SDL/SDL.h"
+
+1230424914 j:\320gb\proyectos\gp2x\milector\mapeos.h
+
+1237722950 j:\320gb\proyectos\gp2x\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"mapeos.h"
+	"tconfig.h"
+
+1231023654 j:\320gb\proyectos\gp2x\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1230643358 j:\320gb\proyectos\gp2x\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1247253246 source:j:\320gb\proyectos\gp2x\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"sound.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1235220864 j:\320gb\proyectos\gp2x\milector\sound.h
+	"SDL\SDL_mixer.h"
+
+1233373032 j:\320gb\proyectos\gp2x\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+	"ttaxonomia.h"
+	"image.h"
+
+1232804250 j:\320gb\proyectos\gp2x\milector\ttaxonomia.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1235225492 j:\320gb\proyectos\gp2x\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	"ttecladoPantalla.h"
+	"tdiccionario.h"
+	"sound.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1246641676 j:\320gb\proyectos\gp2x\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+	"image.h"
+
+1235172914 j:\320gb\proyectos\gp2x\milector\ttecladopantalla.h
+	"pantalla.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"image.h"
+
+1234632940 j:\320gb\proyectos\gp2x\milector\tdiccionario.h
+	"tclist.h"
+	"abrir_fichero.h"
+	"tcstring.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1234632872 j:\320gb\proyectos\gp2x\milector\tclist.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1237720798 j:\320gb\proyectos\gp2x\milector\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+
+1236124320 source:j:\320gb\proyectos\gp2x\milector\menu.cpp
+	"menu.h"
+
+1231020778 source:j:\320gb\proyectos\gp2x\milector\menudata.cpp
+	"menuData.h"
+
+1246640782 source:j:\320gb\proyectos\gp2x\milector\pantalla.cpp
+	"pantalla.h"
+
+1235220424 source:j:\320gb\proyectos\gp2x\milector\sound.cpp
+	"sound.h"
+
+1235220230 source:j:\320gb\proyectos\gp2x\milector\tclist.cpp
+	"tclist.h"
+
+1246640004 source:j:\320gb\proyectos\gp2x\milector\tconfig.cpp
+	"tconfig.h"
+
+1239208718 source:j:\320gb\proyectos\gp2x\milector\tcstring.cpp
+	"tcstring.h"
+
+1235224134 source:j:\320gb\proyectos\gp2x\milector\tdiccionario.cpp
+	"tdiccionario.h"
+
+1218124090 source:j:\320gb\proyectos\gp2x\milector\timer.cpp
+	"timer.h"
+
+1247074664 source:j:\320gb\proyectos\gp2x\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1246640840 source:j:\320gb\proyectos\gp2x\milector\traza.cpp
+	"traza.h"
+
+1235220234 source:j:\320gb\proyectos\gp2x\milector\ttaxonomia.cpp
+	"ttaxonomia.h"
+
+1247076228 source:j:\320gb\proyectos\gp2x\milector\ttecladopantalla.cpp
+	"ttecladoPantalla.h"
+
+1246637372 source:j:\320gb\proyectos\gp2x\milector\ttext.cpp
+	"ttext.h"
+
+1246639184 source:c:\program files\codeblocks\proyectos\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1232831600 c:\program files\codeblocks\proyectos\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+
+1239729906 source:c:\program files\codeblocks\proyectos\milector\image.cpp
+	"image.h"
+
+1236560234 c:\program files\codeblocks\proyectos\milector\image.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<SDL/SDL_image.h>
+	"menuData.h"
+	"timer.h"
+	"mapeos.h"
+	"pantalla.h"
+
+1230724348 c:\program files\codeblocks\proyectos\milector\menudata.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1218124096 c:\program files\codeblocks\proyectos\milector\timer.h
+	"SDL/SDL.h"
+
+1230424914 c:\program files\codeblocks\proyectos\milector\mapeos.h
+
+1237722950 c:\program files\codeblocks\proyectos\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"mapeos.h"
+	"tconfig.h"
+
+1231023654 c:\program files\codeblocks\proyectos\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1230643358 c:\program files\codeblocks\proyectos\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1236124320 source:c:\program files\codeblocks\proyectos\milector\menu.cpp
+	"menu.h"
+
+1246641676 c:\program files\codeblocks\proyectos\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+	"image.h"
+
+1231020778 source:c:\program files\codeblocks\proyectos\milector\menudata.cpp
+	"menuData.h"
+
+1246640782 source:c:\program files\codeblocks\proyectos\milector\pantalla.cpp
+	"pantalla.h"
+
+1235220424 source:c:\program files\codeblocks\proyectos\milector\sound.cpp
+	"sound.h"
+
+1235220864 c:\program files\codeblocks\proyectos\milector\sound.h
+	"SDL\SDL_mixer.h"
+
+1235220230 source:c:\program files\codeblocks\proyectos\milector\tclist.cpp
+	"tclist.h"
+
+1234632872 c:\program files\codeblocks\proyectos\milector\tclist.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1246640004 source:c:\program files\codeblocks\proyectos\milector\tconfig.cpp
+	"tconfig.h"
+
+1239208718 source:c:\program files\codeblocks\proyectos\milector\tcstring.cpp
+	"tcstring.h"
+
+1237720798 c:\program files\codeblocks\proyectos\milector\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+
+1235224134 source:c:\program files\codeblocks\proyectos\milector\tdiccionario.cpp
+	"tdiccionario.h"
+
+1234632940 c:\program files\codeblocks\proyectos\milector\tdiccionario.h
+	"tclist.h"
+	"abrir_fichero.h"
+	"tcstring.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1218124090 source:c:\program files\codeblocks\proyectos\milector\timer.cpp
+	"timer.h"
+
+1246640840 source:c:\program files\codeblocks\proyectos\milector\traza.cpp
+	"traza.h"
+
+1235220234 source:c:\program files\codeblocks\proyectos\milector\ttaxonomia.cpp
+	"ttaxonomia.h"
+
+1232804250 c:\program files\codeblocks\proyectos\milector\ttaxonomia.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1247076228 source:c:\program files\codeblocks\proyectos\milector\ttecladopantalla.cpp
+	"ttecladoPantalla.h"
+
+1235172914 c:\program files\codeblocks\proyectos\milector\ttecladopantalla.h
+	"pantalla.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"image.h"
+
+1246637372 source:c:\program files\codeblocks\proyectos\milector\ttext.cpp
+	"ttext.h"
+
+1233373032 c:\program files\codeblocks\proyectos\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+	"ttaxonomia.h"
+	"image.h"
+
+1257620148 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\abrir_fichero.cpp
+	"abrir_fichero.h"
+
+1257620034 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\abrir_fichero.h
+	<string.h>
+	<stdio.h>
+	"traza.h"
+
+1230639758 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\traza.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<string>
+
+1257618816 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\image.cpp
+	"image.h"
+
+1236556634 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\image.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<SDL/SDL_image.h>
+	"menuData.h"
+	"timer.h"
+	"mapeos.h"
+	"pantalla.h"
+
+1257618810 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\menudata.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1218120496 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\timer.h
+	"SDL/SDL.h"
+
+1230421314 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\mapeos.h
+
+1257638418 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\pantalla.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<sys\stat.h>
+	<dirent.h>
+	<sys\types.h>
+	"mapeos.h"
+	"tconfig.h"
+
+1256409230 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tconfig.h
+	<SDL/SDL_ttf.h>
+	"abrir_fichero.h"
+	<SDL/SDL.h>
+	<stdio.h>
+	"traza.h"
+
+1289776174 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL/SDL.h>
+	"traza.h"
+	"sound.h"
+	"ttext.h"
+	"tmenuprincipal.h"
+
+1235217264 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\sound.h
+	"SDL\SDL_mixer.h"
+
+1233369432 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\ttext.h
+	"pantalla.h"
+	"abrir_fichero.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"traza.h"
+	"ttaxonomia.h"
+	"image.h"
+
+1232800650 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\ttaxonomia.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1257634676 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tmenuprincipal.h
+	"menu.h"
+	<string>
+	<sys\stat.h>
+	<stdio.h>
+	<dirent.h>
+	<sys\types.h>
+	<string.h>
+	"traza.h"
+	"ttecladoPantalla.h"
+	"tdiccionario.h"
+	"sound.h"
+	<SDL\SDL.h>
+	"ttext.h"
+
+1246638076 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\menu.h
+	<SDL/SDL_ttf.h>
+	"pantalla.h"
+	<SDL/SDL.h>
+	"image.h"
+
+1235169314 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\ttecladopantalla.h
+	"pantalla.h"
+	<SDL/SDL_ttf.h>
+	<string.h>
+	<time.h>
+	"image.h"
+
+1234629340 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tdiccionario.h
+	"tclist.h"
+	"abrir_fichero.h"
+	"tcstring.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
+1234629272 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tclist.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+	<SDL/SDL.h>
+
+1237717198 c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tcstring.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+	"traza.h"
+
+1257618834 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\menu.cpp
+	"menu.h"
+
+1257618802 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\menudata.cpp
+	"menuData.h"
+
+1257640004 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\pantalla.cpp
+	"pantalla.h"
+
+1235216824 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\sound.cpp
+	"sound.h"
+
+1256408912 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tclist.cpp
+	"tclist.h"
+
+1257626670 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tconfig.cpp
+	"tconfig.h"
+
+1239205118 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tcstring.cpp
+	"tcstring.h"
+
+1235220534 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tdiccionario.cpp
+	"tdiccionario.h"
+
+1218120490 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\timer.cpp
+	"timer.h"
+
+1257637960 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\tmenuprincipal.cpp
+	"tmenuprincipal.h"
+
+1257621448 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\traza.cpp
+	"traza.h"
+
+1235216634 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\ttaxonomia.cpp
+	"ttaxonomia.h"
+
+1247072628 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\ttecladopantalla.cpp
+	"ttecladoPantalla.h"
+
+1257633982 source:c:\users\dmarcobo.alc-45v5lq1\documents\codeblocks\milector\ttext.cpp
+	"ttext.h"
+

@@ -1,0 +1,82 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = win/main.o win/abrir_fichero.o win/image.o win/menu.o win/menuData.o win/pantalla.o win/tconfig.o win/timer.o win/tmenuprincipal.o win/traza.o win/ttaxonomia.o win/ttecladoPantalla.o win/ttext.o win/tdiccionario.o win/sound.o win/tclist.o win/tcstring.o $(RES)
+LINKOBJ  = win/main.o win/abrir_fichero.o win/image.o win/menu.o win/menuData.o win/pantalla.o win/tconfig.o win/timer.o win/tmenuprincipal.o win/traza.o win/ttaxonomia.o win/ttecladoPantalla.o win/ttext.o win/tdiccionario.o win/sound.o win/tclist.o win/tcstring.o $(RES)
+LIBS =  -L"C:/GP2XSDK/lib" -lmingw32  -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf -liconv -lgp2x -lSDL_gfx -lSDL_image -lSDL_mixer -lSDL_ttf -lSDL_inifile -lSDLmain -lSDL -lpng -ljpeg -lvorbisidec -lmad -lfreetype -lz -lunicodefont   
+INCS =  -I"C:/GP2XSDK/include/GP2X"  -I"C:/GP2XSDK/include/SDL"  -I"C:/GP2XSDK/include" 
+CXXINCS =  -I"C:/GP2XSDK/include/GP2X"  -I"C:/GP2XSDK/include/SDL"  -I"C:/GP2XSDK/lib/gcc/mingw32/3.4.2/include"  -I"C:/GP2XSDK/include/c++/3.4.2/backward"  -I"C:/GP2XSDK/include/c++/3.4.2/mingw32"  -I"C:/GP2XSDK/include/c++/3.4.2"  -I"C:/GP2XSDK/include" 
+BIN  = Project1.exe
+CXXFLAGS = $(CXXINCS)   -DWIN32 -fexpensive-optimizations
+CFLAGS = $(INCS) -D_REENTRANT   -DWIN32 -fexpensive-optimizations
+RM = rm -f
+MKDIR = cygwin-mkdir -p
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project1.exe all-after
+
+all-before:
+	$(MKDIR) "win"
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $@ $(LIBS)
+
+win/main.o: main.c
+	$(CPP) -c main.c -o win/main.o $(CXXFLAGS)
+
+win/abrir_fichero.o: abrir_fichero.cpp
+	$(CPP) -c abrir_fichero.cpp -o win/abrir_fichero.o $(CXXFLAGS)
+
+win/image.o: image.cpp
+	$(CPP) -c image.cpp -o win/image.o $(CXXFLAGS)
+
+win/menu.o: menu.cpp
+	$(CPP) -c menu.cpp -o win/menu.o $(CXXFLAGS)
+
+win/menuData.o: menuData.cpp
+	$(CPP) -c menuData.cpp -o win/menuData.o $(CXXFLAGS)
+
+win/pantalla.o: pantalla.cpp
+	$(CPP) -c pantalla.cpp -o win/pantalla.o $(CXXFLAGS)
+
+win/tconfig.o: tconfig.cpp
+	$(CPP) -c tconfig.cpp -o win/tconfig.o $(CXXFLAGS)
+
+win/timer.o: timer.cpp
+	$(CPP) -c timer.cpp -o win/timer.o $(CXXFLAGS)
+
+win/tmenuprincipal.o: tmenuprincipal.cpp
+	$(CPP) -c tmenuprincipal.cpp -o win/tmenuprincipal.o $(CXXFLAGS)
+
+win/traza.o: traza.cpp
+	$(CPP) -c traza.cpp -o win/traza.o $(CXXFLAGS)
+
+win/ttaxonomia.o: ttaxonomia.cpp
+	$(CPP) -c ttaxonomia.cpp -o win/ttaxonomia.o $(CXXFLAGS)
+
+win/ttecladoPantalla.o: ttecladoPantalla.cpp
+	$(CPP) -c ttecladoPantalla.cpp -o win/ttecladoPantalla.o $(CXXFLAGS)
+
+win/ttext.o: ttext.cpp
+	$(CPP) -c ttext.cpp -o win/ttext.o $(CXXFLAGS)
+
+win/tdiccionario.o: tdiccionario.cpp
+	$(CPP) -c tdiccionario.cpp -o win/tdiccionario.o $(CXXFLAGS)
+
+win/sound.o: sound.cpp
+	$(CPP) -c sound.cpp -o win/sound.o $(CXXFLAGS)
+
+win/tclist.o: tclist.cpp
+	$(CPP) -c tclist.cpp -o win/tclist.o $(CXXFLAGS)
+
+win/tcstring.o: tcstring.cpp
+	$(CPP) -c tcstring.cpp -o win/tcstring.o $(CXXFLAGS)

@@ -1,0 +1,43 @@
+Iniciamos pantalla
+Iniciamos pantalla
+TMenu: Antes de cargar iconos
+Cargamos Sound
+Antes del explorador
+Antes de opciones
+Iniciamos pantalla
+Iniciamos pantalla
+Cargamos config del lector
+Activamos la barra
+No activamos el sonido
+antes de obtener la fuente Vera.ttf
+TamFuenteLector: 22, E:\Programas\Codeblocks\Projects\EmuBook\fonts\Vera.ttf
+antes de obtener la fuente
+cerramos
+true
+E:\Programas\Codeblocks\Projects\EmuBook\fonts\Vera.ttf,22
+abierta
+arrays
+Solo iniciamos los menus
+antes de obtener la fuente
+cerramos
+true
+E:\Programas\Codeblocks\Projects\EmuBook\fonts\Vera.ttf,16
+abierta
+arrays
+Iniciamos pantalla
+antes de obtener la fuente
+cerramos
+true
+E:\Programas\Codeblocks\Projects\EmuBook\fonts\Vera.ttf,16
+abierta
+arrays
+antes de obtener la fuente
+cerramos
+true
+E:\Programas\Codeblocks\Projects\EmuBook\fonts\Vera.ttf,16
+abierta
+arrays
+Iniciamos pantalla
+Iniciamos pantalla
+Iniciamos pantalla
+Main despues de MostrarMenuPrincipal
